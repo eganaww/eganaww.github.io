@@ -1,0 +1,24 @@
+@media only screen and (max-width: 768px){
+
+    nav {
+        display: none;
+    }
+
+    header .list-icon {
+        display: flex;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .desk .text {
+        width: 100%;
+    }
+
+    .hero .my-pict img{
+        width: 12rem;
+    }
+}
