@@ -1,7 +1,29 @@
 @media only screen and (max-width: 768px){
 
     nav {
+        flex-direction: column;
         display: none;
+        width: 100%;
+        position: relative;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    nav ul {
+        top: 2.6rem;
+        left: -8rem;
+        width: 100rem;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        gap: 0.5rem;
+        background-color: #EDEDED;
+    }
+
+    nav ul li {
+        border-bottom: 1px solid;
     }
 
     header .list-icon {
@@ -21,4 +43,6 @@
     .hero .my-pict img{
         width: 12rem;
     }
+
+    
 }
