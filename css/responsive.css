@@ -26,6 +26,10 @@
         border-bottom: 1px solid;
     }
 
+    nav ul li:hover {
+        border-bottom: 1px solid var(--primary-color);
+    }
+
     header .list-icon {
         display: flex;
     }
