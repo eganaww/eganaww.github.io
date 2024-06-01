@@ -83,7 +83,7 @@ nav ul li a:hover {
 
 .list-icon{
     display: none;
-}
+} 
 
 .hero {
     margin-top: 5rem;
@@ -110,6 +110,12 @@ nav ul li a:hover {
 .hero .desk .text p {
     width: 300px;
     font-size: 16px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
 }
 
 .button button {

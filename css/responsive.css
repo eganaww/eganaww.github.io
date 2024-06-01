@@ -34,18 +34,37 @@
         display: flex;
     }
 
-    .hero {
+    .container .hero{
         display: flex;
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
-    .hero .desk .text {
-        width: 100%;
+    .container .hero .desk .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
-    .hero .my-pict img{
-        width: 12rem;
+    .container .hero .my-pict img{
+        width: 15rem;
+    }
+
+    .container .hero .button {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container .tentang {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     
